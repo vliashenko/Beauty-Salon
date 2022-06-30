@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Beauty-Salon/static/css/main.872c4387.css",
+    "main.js": "/Beauty-Salon/static/js/main.fd401da9.js",
+    "static/media/backgroundHeaderMain.png": "/Beauty-Salon/static/media/backgroundHeaderMain.67d13017a2bd4e7d9dab.png",
+    "static/media/gallery7.png": "/Beauty-Salon/static/media/gallery7.83910e9aa22caff4d2da.png",
+    "static/media/categories6.png": "/Beauty-Salon/static/media/categories6.d69c9e97671266d4aaf0.png",
+    "static/media/gallery9.png": "/Beauty-Salon/static/media/gallery9.71763dc376bcaa0448c1.png",
+    "static/media/gallery2.png": "/Beauty-Salon/static/media/gallery2.a7cea7f9116c87c105e6.png",
+    "static/media/gallery1.png": "/Beauty-Salon/static/media/gallery1.857849203f91fea70d36.png",
+    "static/media/gallery4.png": "/Beauty-Salon/static/media/gallery4.58502700962f7347b2af.png",
+    "static/media/gallery5.png": "/Beauty-Salon/static/media/gallery5.199c935acdafbc56d98b.png",
+    "static/media/gallery6.png": "/Beauty-Salon/static/media/gallery6.a0425c8de483ceee99af.png",
+    "static/media/gallery3.png": "/Beauty-Salon/static/media/gallery3.f45b42ee6aae3fd3c3a4.png",
+    "static/media/categories4.png": "/Beauty-Salon/static/media/categories4.73ed6f5f720596f36cce.png",
+    "static/media/categories3.png": "/Beauty-Salon/static/media/categories3.de16d5145bf069e255b6.png",
+    "static/media/gallery8.png": "/Beauty-Salon/static/media/gallery8.662f180a73ead778da87.png",
+    "static/media/categories5.png": "/Beauty-Salon/static/media/categories5.323d1186791aa2746659.png",
+    "static/media/categories1.png": "/Beauty-Salon/static/media/categories1.fd0e515a1d8dea502f45.png",
+    "static/media/categories2.png": "/Beauty-Salon/static/media/categories2.bcccfda59945d29ba277.png",
+    "static/media/partner1.png": "/Beauty-Salon/static/media/partner1.25b46242c628880b9215.png",
+    "index.html": "/Beauty-Salon/index.html",
+    "main.872c4387.css.map": "/Beauty-Salon/static/css/main.872c4387.css.map",
+    "main.fd401da9.js.map": "/Beauty-Salon/static/js/main.fd401da9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.872c4387.css",
+    "static/js/main.fd401da9.js"
+  ]
+}
