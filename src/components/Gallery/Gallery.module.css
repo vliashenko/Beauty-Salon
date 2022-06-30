@@ -1,0 +1,33 @@
+.gallery {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.galleryTitle {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.galleryFilters {
+    width: 650px;
+    margin: 80px auto 0;
+}
+
+.galleryFiltersList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.galleryFiltersListItem {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.galleryList {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}

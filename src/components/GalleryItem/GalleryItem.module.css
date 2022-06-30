@@ -1,0 +1,15 @@
+.galleryitem {
+    width: 400px;
+    height: 400px;
+    margin: 12px;
+    transition: all 400ms ease-in-out;
+}
+
+.galleryitem:hover {
+   transform: scale(1.05);
+}
+
+.galleryItemImage {
+    width: 100%;
+    height: 100%;
+}

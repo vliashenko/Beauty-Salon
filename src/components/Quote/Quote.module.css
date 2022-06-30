@@ -1,0 +1,39 @@
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quoteImageContainer {
+    margin: 120px auto 0;
+    width: 80px;
+    height: 64px;
+}
+
+.quoteImage {
+    width: 100%;
+    height: 100%;
+}
+
+.textContainer {
+    margin: 60px auto 120px;
+    width: 856px;
+}
+
+.textContainerItemTop {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.textContainerItemBottom {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+}
+

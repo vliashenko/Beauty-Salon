@@ -1,0 +1,25 @@
+.partners {
+    width: 1280px;
+    margin: 0 auto;
+    min-height: 462px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partnersItem {
+    width: 80px;
+    transition: all 400ms ease-in-out;
+}
+
+.partnersItem:hover {
+    transform: scale(1.10);
+}
+
+.partnersItem:nth-child(3) {
+    width: 160px;
+}
+
+.partnersImage {
+    width: 100%;
+}

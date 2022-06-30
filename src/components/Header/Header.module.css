@@ -1,0 +1,147 @@
+.header {
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    background: url("../../resourses//img/backgroundHeaderMain.png");
+    background-position: center center;
+    background-size: cover;
+}
+
+.headerTop {
+    width: 1280px;
+    margin: 0 auto;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.headerTopList {
+    margin: 0 20px;
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.headerTopListItem {
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.headerTop {
+    animation: showText 5s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    transform: opacity(0, 100%);
+}
+
+@keyframes showText {
+    0% { opacity: 0; }
+    70% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+@media (max-width: 1280px) {
+    .headerTopList {
+        width: 1000px;
+    }
+    .headerTop {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1045px) {
+    .headerTopList {
+        width: 800px;
+    }
+    .headerTop {
+        width: 800px;
+    }
+}
+
+@media (max-width: 800px) {
+    .headerTopList {
+        width: 700px;
+    }
+    .headerTop {
+        width: 700px;
+    }
+}
+
+@media (max-width: 700px) {
+    .headerTopList {
+        width: 600px;
+    }
+    .headerTop {
+        width: 600px;
+    }
+}
+
+.logoMain {
+    width: 40px;
+    height: 40px;
+    transition: all 300ms ease-in-out;
+}
+
+.logoMain:hover {
+    transform: scale(1.05);
+}
+
+.headerCenter {
+    margin: 150px auto 0;
+}
+
+.headerCenterItem {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    text-align: center;
+}
+
+@keyframes showCenterText {
+    0% 
+    {
+        transform: translate3d(0, 100%, 0);
+        opacity: 0;    
+    }
+    100% { transform: translate3d(0, 0, 0); }
+}
+
+.headerCenter {
+    animation: showCenterText 3s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    transform: translate(0, 100%);
+}
+
+.headerBottom {
+    width: 170px;
+    margin: 180px auto 34px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headerBottomMouse {
+    width: 20px;
+    height: 30px;
+    animation: showText 5s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    transform: opacity(0, 100%);
+}
+
+.headerBottomLabel {
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    animation: showText 5s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    transform: opacity(0, 100%);
+}
