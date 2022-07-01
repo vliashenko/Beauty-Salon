@@ -37,3 +37,19 @@
     color: #FFFFFF;
 }
 
+@media (max-width: 1000px) {
+    .textContainer {
+        width: auto;
+    }
+    .quoteImageContainer {
+        width: 70px;
+        height: 56px;
+    }
+    .textContainerItemTop, .textContainerItemBottom {
+        font-weight: 600;
+        font-size: 22px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+

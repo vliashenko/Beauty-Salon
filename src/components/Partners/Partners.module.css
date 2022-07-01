@@ -23,3 +23,20 @@
 .partnersImage {
     width: 100%;
 }
+
+@media (max-width: 1300px) {
+   .partners {
+        width: auto;
+   }
+}
+
+@media (max-width: 600px) {
+    .partners {
+        margin: 100px 0;
+        width: auto;
+        flex-direction: column;
+    }
+    .partnersItem {
+        margin: 30px auto;
+    }
+ }

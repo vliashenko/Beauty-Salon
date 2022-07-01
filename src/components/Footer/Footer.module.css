@@ -64,3 +64,31 @@
     font-size: 18px;
     line-height: 140%;
 }
+
+@media (max-width: 1280px) {
+    .footer {
+        width: auto;
+        margin: 0 10px;
+    }
+    .footerColFirst {
+        display: none;
+    }
+    .footerColSecond,.footerColThird, .footerColFourth {
+        padding:0 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footerContainer {
+        flex-direction: column;
+    }
+    .footerColSecond,.footerColThird, .footerColFourth {
+       margin: 20px auto;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+    }
+    .footerColItem {
+        justify-content: center;
+    }
+}

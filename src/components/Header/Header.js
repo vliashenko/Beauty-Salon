@@ -7,6 +7,10 @@ const Header = () => {
     return (
         <header className={styles.header}>
             <div className={styles.headerTop}>
+            
+            <img src={logo} alt="main-logo" className={styles.logoMainHidden} />
+            <i className={`fa-solid fa-bars-staggered ${styles.burger}`}></i>
+
                 <ul className={styles.headerTopList}>
                     <li className={styles.headerTopListItem}>
                         Головна

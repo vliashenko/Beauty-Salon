@@ -13,3 +13,17 @@
     width: 100%;
     height: 100%;
 }
+
+@media (max-width: 472px) {
+ .galleryitem {
+    width: 360px;
+    height: 360px;
+ }
+}
+
+@media (max-width: 412px) {
+    .galleryitem {
+       width: 320px;
+       height: 320px;
+    }
+   }
