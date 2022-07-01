@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Beauty-Salon/static/css/main.935e6bd1.css",
-    "main.js": "/Beauty-Salon/static/js/main.fd401da9.js",
+    "main.css": "/Beauty-Salon/static/css/main.9c95dc5f.css",
+    "main.js": "/Beauty-Salon/static/js/main.f166e2e9.js",
     "static/media/backgroundHeaderMain.png": "/Beauty-Salon/static/media/backgroundHeaderMain.67d13017a2bd4e7d9dab.png",
     "static/media/gallery7.png": "/Beauty-Salon/static/media/gallery7.83910e9aa22caff4d2da.png",
     "static/media/categories6.png": "/Beauty-Salon/static/media/categories6.d69c9e97671266d4aaf0.png",
@@ -20,11 +20,11 @@
     "static/media/categories2.png": "/Beauty-Salon/static/media/categories2.bcccfda59945d29ba277.png",
     "static/media/partner1.png": "/Beauty-Salon/static/media/partner1.25b46242c628880b9215.png",
     "index.html": "/Beauty-Salon/index.html",
-    "main.935e6bd1.css.map": "/Beauty-Salon/static/css/main.935e6bd1.css.map",
-    "main.fd401da9.js.map": "/Beauty-Salon/static/js/main.fd401da9.js.map"
+    "main.9c95dc5f.css.map": "/Beauty-Salon/static/css/main.9c95dc5f.css.map",
+    "main.f166e2e9.js.map": "/Beauty-Salon/static/js/main.f166e2e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.935e6bd1.css",
-    "static/js/main.fd401da9.js"
+    "static/css/main.9c95dc5f.css",
+    "static/js/main.f166e2e9.js"
   ]
 }
