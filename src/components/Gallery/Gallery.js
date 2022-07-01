@@ -76,7 +76,7 @@ class Gallery extends Component {
                             Всі роботи
                         </li>
                         <li className={styles.galleryFiltersListItem}>
-                            Послуги парекмахера
+                            Послуги перукаря
                         </li>
                         <li className={styles.galleryFiltersListItem}>
                             Манікюр

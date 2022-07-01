@@ -20,10 +20,10 @@ const Footer = () => {
                                 Контакти
                             </li>
                             <li className={styles.footerColItem}>
-                                +38-068-84-85-643
+                                <a className={styles.mobile} href="tel:+380688485643">+38-068-84-85-643</a>
                             </li>
                             <li className={styles.footerColItem}>
-                                +38-068-84-85-643
+                                <a className={styles.mobile} href="tel:+380688485643">+38-068-84-85-643</a>
                             </li>
                             <li className={styles.footerColItem}>
                                 Визвільний проспект, будинок 5, кв.104

@@ -36,6 +36,15 @@
     justify-content: center;
 }
 
+.mobile {
+    color: #fff;
+    transition: all 300ms ease-in-out;
+}
+
+.mobile:hover {
+    transform: scale(1.1);
+}
+
 .footerColTitle {
     margin-bottom: 10px;
     font-weight: 700;
@@ -54,6 +63,12 @@
  
 .iconInfo {
     margin-left: 20px;
+    transition: all 300ms ease-in-out;
+}
+
+.iconInfo:hover {
+    color: #CDAA7D;
+    cursor: pointer;
 }
 
 .copyright {

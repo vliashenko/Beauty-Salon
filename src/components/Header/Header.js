@@ -21,7 +21,7 @@ const Header = () => {
                     <li className={styles.headerTopListItem}>
                         Косметика
                     </li>
-                    <li className={styles.headerTopListItem}>
+                    <li >
                         <img src={logo} alt="main-logo" className={styles.logoMain} />
                     </li>
                     <li className={styles.headerTopListItem}>
