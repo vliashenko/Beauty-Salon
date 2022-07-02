@@ -1,3 +1,37 @@
+{
+    "data": [
+        {
+            "profession" : "Візажист",
+            "name" : "Наталія Маріївна",
+            "_id": "01Mp@WeRsL"
+        },
+        {
+            "profession" : "Стиліст",
+            "name" : "Світлана Олександрівна",
+            "_id": "01MpeXaRsL"
+        },
+        {
+            "profession" : "Стиліст",
+            "name" : "Катерина Вікторівна",
+            "_id": "01MpHDSeRsL"
+        },
+        {
+            "profession" : "Майстер манікюру",
+            "name" : "Марія Вячеславівна",
+            "_id": "01MDaldeRsL"
+        },
+        {
+            "profession" : "Майстер педикюру",
+            "name" : "Надія Микитівна",
+            "_id": "01Mpa@aweRsL"
+        },
+        {
+            "profession" : "Перукар",
+            "name" : "Марія Андріївна",
+            "_id": "01Mpeaaff1RsL"
+        }
+    ]
+}
 
 
 

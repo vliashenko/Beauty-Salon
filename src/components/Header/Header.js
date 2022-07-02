@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import logo from "../../resourses/img/logoMain.png";
 import mouse from "../../resourses/img/mouseHeaderMain.png"
 import styles from "./Header.module.css";
@@ -12,26 +13,33 @@ const Header = () => {
             <i className={`fa-solid fa-bars-staggered ${styles.burger}`}></i>
 
                 <ul className={styles.headerTopList}>
-                    <li className={styles.headerTopListItem}>
-                        Головна
-                    </li>
-                    <li className={styles.headerTopListItem}>
-                        Майстри
-                    </li>
-                    <li className={styles.headerTopListItem}>
-                        Косметика
-                    </li>
+                    
+                        <li className={styles.headerTopListItem}>
+                        <Link className={styles.link} to="/">
+                            Головна
+                        </Link>
+                        </li>
+                    
+                        <li className={styles.headerTopListItem}>
+                            <Link className={styles.link} to="/masters">
+                                Майстри
+                            </Link>
+                        </li>
+                    
                     <li >
-                        <img src={logo} alt="main-logo" className={styles.logoMain} />
+                        <Link className={styles.link} to="/">
+                            <img src={logo} alt="main-logo" className={styles.logoMain} />
+                        </Link>
                     </li>
                     <li className={styles.headerTopListItem}>
-                        Акції
+                        <Link className={styles.link} to="/pricelist">
+                            Ціни
+                        </Link>
                     </li>
                     <li className={styles.headerTopListItem}>
-                        Відгуки
-                    </li>
-                    <li className={styles.headerTopListItem}>
-                        Контакти
+                        <Link className={styles.link} to="/contacts">
+                            Контакти
+                        </Link>
                     </li>
                 </ul>
             </div>

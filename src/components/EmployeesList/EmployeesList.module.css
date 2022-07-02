@@ -1,0 +1,36 @@
+.employeeList {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1280px) {
+    .employeeList {
+        width: auto;
+        padding: 10px;
+    }
+}
+
+.employeeListTitle {
+    margin: 80px auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+
+}
+
+@media (max-width: 425px) {
+    .employeeListTitle {
+       font-size: 36px ;
+    }
+}
+
+.employeeListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

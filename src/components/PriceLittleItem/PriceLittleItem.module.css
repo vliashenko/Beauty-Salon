@@ -1,0 +1,39 @@
+.priceLittleItem {
+    margin-top: 40px;
+    width: 526px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.priceLittleTitle {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 130%;
+}
+
+.priceLittleDescription {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    margin-top: 10px;
+}
+
+
+.priceLittlePrice {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 130%;
+}
+
+.styledHr {
+    background-color: white;
+    height: 1px;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .priceLittleItem {
+        width: auto;
+    }
+}

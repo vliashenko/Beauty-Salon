@@ -1,0 +1,40 @@
+.priceListItem {
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    padding: 10px;
+}
+
+.priceListItem:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.priceListItemFirst {
+    width: 636px;
+    height: 536px;
+}
+
+.priceListItemImage {
+    width: 100%;
+    height: 100%;
+}
+
+.priceListItemSecond {
+    width: 526px;
+    height: 536px;
+}
+
+@media (max-width:1280px) {
+    .priceListItemFirst {
+        display:none;
+    }
+    
+    .priceListItemImage {
+        display:none;
+    }
+    .priceListItem {
+        width: auto;
+        justify-content: center;
+    }
+}

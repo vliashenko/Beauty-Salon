@@ -1,8 +1,8 @@
 .galleryitem {
-    width: 400px;
-    height: 400px;
-    margin: 12px;
-    transition: all 400ms ease-in-out;
+   width: 400px;
+   height: 400px;
+   margin: 12px;
+   transition: all 400ms ease-in-out;
 }
 
 .galleryitem:hover {
