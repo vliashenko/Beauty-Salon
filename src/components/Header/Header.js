@@ -45,7 +45,9 @@ const Header = () => {
             <header className={styles.header}>
                 <div className={styles.headerTop}>
                 
-                <img src={logo} alt="main-logo" className={styles.logoMainHidden} />
+                <Link className={styles.link} to="/">
+                    <img src={logo} alt="main-logo" className={styles.logoMainHidden} />
+                </Link>
                 <i onClick={onClickHandler} className={`fa-solid fa-bars-staggered ${styles.burger}`}></i>
 
                     <ul className={styles.headerTopList}>

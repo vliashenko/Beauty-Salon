@@ -44,7 +44,10 @@ const EmployeeHeader = () => {
         <header className={styles.EmployeeHeader}>
             <div className={styles.headerTopEmployee}>
             
-            <img src={logo} alt="main-logo" className={styles.logoMainHidden} />
+            <Link className={styles.link} to="/">
+                <img src={logo} alt="main-logo" className={styles.logoMainHidden} />
+            </Link>
+            
             <i onClick={onClickHandler} className={`fa-solid fa-bars-staggered ${styles.burger}`}></i>
 
                 <ul className={styles.headerTopList}>
@@ -60,8 +63,8 @@ const EmployeeHeader = () => {
                     </li>
                     <li >
                     <Link className={styles.link} to="/">
-                            <img src={logo} alt="main-logo" className={styles.logoMain} />
-                        </Link>
+                        <img src={logo} alt="main-logo" className={styles.logoMain} />
+                    </Link>
                     </li>
                     <li className={styles.headerTopListItem}>
                         <Link className={styles.link} to="/pricelist">
