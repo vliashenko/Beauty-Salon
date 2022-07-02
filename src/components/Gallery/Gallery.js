@@ -60,7 +60,17 @@ class Gallery extends Component {
                 url: galleryImg9,
                 category: "hairdo"
             }
-        ]
+        ],
+        filtered: []
+    }
+
+    onFilterHandler = (filter) => {
+        
+        const newArr = this.state.data.filter(item => item.category === filter)
+        
+        this.setState(({filtered}) => ({
+            filtered: [...newArr]
+        }))
     }
 
     render() {
@@ -72,24 +82,31 @@ class Gallery extends Component {
 
                 <div className={styles.galleryFilters}>
                     <ul className={styles.galleryFiltersList}>
-                        <li className={styles.galleryFiltersListItem}>
+                        <li onClick={() => this.onFilterHandler("all")} className={styles.galleryFiltersListItem}>
                             Всі роботи
                         </li>
-                        <li className={styles.galleryFiltersListItem}>
+                        <li onClick={() => this.onFilterHandler("hairdo")} className={styles.galleryFiltersListItem}>
                             Послуги перукаря
                         </li>
-                        <li className={styles.galleryFiltersListItem}>
+                        <li onClick={() => this.onFilterHandler("manicure")} className={styles.galleryFiltersListItem}>
                             Манікюр
                         </li>
                     </ul>
                 </div>
 
                 <div className={styles.galleryList}>
-                    {this.state.data.map((item) => {
+                    {this.state.filtered.length === 0 
+                    ? this.state.data.map((item) => {
                         return (
                             <GalleryItem key={item.id} category={item.category} url={item.url}/>
                         )
-                    })}
+                    })
+                    : this.state.filtered.map((item) => {
+                        return (
+                            <GalleryItem key={item.id} category={item.category} url={item.url}/>
+                        )
+                    })
+                    }
                 </div>
             </div>
         );
